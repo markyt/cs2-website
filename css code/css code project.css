@@ -1,0 +1,29 @@
+/*The code to change size */
+h1 ~ p {
+    font-size: 100%;
+}
+/* */
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+/* to align the paragraph and image*/
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+/* to align the page horizontially */
+.Navbar {
+    display: flex;
+}
+/* to change colour,border and padding */
+body {
+    background-color: rgb(243, 246, 247);
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border:  5px solid black;
+}
+
+

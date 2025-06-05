@@ -1,0 +1,141 @@
+/*The code to change size */
+h1 ~ p {
+    font-size: 100%;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center; /* to align the paragraph and image*/
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.Navbar {
+    display: flex;
+    gap: 24px;
+    justify-content: center; /* centers the navbar items */
+    padding: 20px 0; /* adds padding to the top and bottom of the navbar */
+    background-color: #333; /* dark background for the navbar */
+    border-bottom: 2px solid #f2f2f2; /* optional: adds a bottom border */
+    border-radius: 10px; /* optional: rounds the corners of the navbar */
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2); /* optional: adds slight shadow */
+
+}
+
+body {
+    background-color: rgb(58, 59, 59);
+    max-width: 900px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    color:#f5eaea ; /* to change colour,border and padding */
+    font-family: Arial, sans-serif; /* optional: sets a default font */
+    line-height: 1.6; /* optional: improves readability */
+}
+
+a {
+  transition: color 0.3s ease; /* smooth transition for color change */
+  color: #e7e1e1; /* white */
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+  color: #f5eaea;
+}
+
+a {
+  color: #fff; /* white */
+  text-decoration: underline; /* or none if you don't want underline */
+}
+a:visited {
+  color: #fff; /* keep visited links white too */
+}
+a:hover,
+a:focus {
+  color: #e05fcf; /* optional: pink on hover for accent, use any color you like */
+  outline-offset: 2px;
+}
+/* Profile image styling */
+
+/* Center the main content container */
+.main-container {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers children horizontally */
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* Optional: Custom scrollbar for modern look */
+::-webkit-scrollbar {
+    width: 8px;
+    background: #222;
+}
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+.content-container {
+    display: flex;
+    gap: 24px;
+    padding: 0 20px;
+}
+
+.profile-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 24px auto; /* center and add space below */
+    border: 4px solid #f2f2f2; /* optional: adds a border around the image */
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2); /* optional: adds slight shadow */
+}
+
+body {
+    background-color: rgb(58, 59, 59);
+    /* Remove these lines: */
+    /* max-width: 900px; */
+    /* width:100%; */
+    /* margin: 0 auto; */
+    padding: 0 20px 20px 20px;
+    color:#f5eaea ; /* to change colour,border and padding */
+    font-family: Arial, sans-serif; /* optional: sets a default font */
+    line-height: 1.6; /* optional: improves readability */
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  height: 100vh;            /* Full viewport height, adjust as needed */
+}
+
+.image-block {
+  text-align: center;
+}
+
+
