@@ -1,0 +1,1 @@
+you also have to have full file to make it work, putting folder individually will not start the css nor the image
